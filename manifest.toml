@@ -39,11 +39,6 @@ ram.runtime = "50M"
     # this is a generic question - ask strings are automatically handled by YunoHost's core
     type = "domain"
 
-    [install.path]
-    # this is a generic question - ask strings are automatically handled by YunoHost's core
-    type = "path"
-    default = "/profilarr"
-
     [install.init_main_permission]
     type = "group"
     default = "visitors"
